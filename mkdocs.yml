@@ -1,18 +1,22 @@
 site_name: Coello
 nav:
-  - Home: index.md 
-  - About: about.md
-  - Page 2: page2.md 
-  - User Guide:
-      - 'test_1': testing_1.md
+  #- Home: index.md 
+  - Research: Research.md 
+  - Services: Servises.md
+  - About us: about.md
+  - Posts: Posts.md
         ## Doest his even work
 
 
 theme :
   name: material
+  font:
+    text: Roboto
+  logo: img/logo_final_222.png
   features:
+    - header.autohide
     - navigation.tabs
-    - navitagion.sections
+    #- navitagion.sections
     - toc.intergrate
     - navigation.top
     - search.suggest
@@ -20,20 +24,20 @@ theme :
     - content.tabs.link
     - contant.code.annotation
     - content.code.copy
-  langyage: en
+  language: en
   palette:
     - scheme: default
       toggle: 
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-      primary: teal
-      accent: purple
+      primary: black
+      accent: deep purple
     - scheme: slate 
       toggle: 
         icon: material/toggle-switch
         name: Switch to light mode
-      primary: teal
-      accent: lime    
+      primary: black
+      accent: deep purple    
 
 extra:
   social:
@@ -43,6 +47,7 @@ extra:
       link: https://x.com/edum3800
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/eduardomedinaoliveira/
+  homepage: http://127.0.0.1:8000/
 #extra_css:
 
 #  - stylesheets/custom.css
