@@ -1,6 +1,6 @@
 site_name: Coello
 nav:
-  #- Home: index.md 
+ # - Home: index.md 
   - Research: Research.md 
   - Services: Services.md
   - About us: about.md
@@ -47,7 +47,8 @@ extra:
       link: https://x.com/edum3800
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/eduardomedinaoliveira/
-  homepage: docs/index.md
+ # homepage: 
+
 #extra_css:
 
 #  - stylesheets/custom.css
