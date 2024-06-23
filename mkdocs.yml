@@ -1,6 +1,6 @@
 site_name: Coello
 nav:
-  #- Home: index.md 
+  - Home: index.md 
   - Research: Research.md 
   - Services: Services.md
   - About us: about.md
